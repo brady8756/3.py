@@ -1,5 +1,7 @@
 # Tic Tac Toe
 
+import streamlit as st
+
 import random
 
 # 列印方法
