@@ -139,7 +139,7 @@ def isBoardFull(board):
             return False
     return True
 
-st.write('Welcome to Tic Tac Toe!')
+    st.write('Welcome to Tic Tac Toe!')
 
 while True:
     # 更新棋盤
