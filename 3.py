@@ -44,12 +44,10 @@ def whoGoesFirst():
     else:
         return 'player'
     
-1 = st.sidebar.text_input()
-
 def playAgain():
     # This function returns True if the player wants to play again, otherwise it returns False.
     st.write('Do you want to play again? (yes or no)')
-    return = 1 ().lower().startswith('y')
+    return st.sider.text_input.lower().startswith('y')
 
 # 下子
 def makeMove(board, letter, move):
