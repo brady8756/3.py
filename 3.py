@@ -81,7 +81,7 @@ def getPlayerMove(board):
     # 玩家落子
     move = ' '
     while move not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(move)):
-        print('What is your next move? (1-9)')
+        st.write('What is your next move? (1-9)')
         move = input()
     return int(move)
 
@@ -148,7 +148,7 @@ while True:
     theBoard = [' '] * 10
     playerLetter, computerLetter = inputPlayerLetter()
     turn = whoGoesFirst()
-    print('The ' + turn + ' will go first.')
+    st.write('The ' + turn + ' will go first.')
     gameIsPlaying = True
 
     while gameIsPlaying:
