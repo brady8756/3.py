@@ -36,7 +36,7 @@ def inputPlayerLetter():
         return ['X', 'O']
     else:
         return ['O', 'X']
-
+    st.session
 def whoGoesFirst():
     # Randomly choose the player who goes first.
     if random.randint(0, 1) == 0:
