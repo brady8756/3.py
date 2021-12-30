@@ -20,7 +20,7 @@ def drawBoard(board):
     st.write(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     st.write('   |   |')
 
-letter = st.sidebar.text_input('please input X or O?' , 'X O')
+#letter = st.sidebar.text_input('please input X or O?' , 'X O')
 move = st.sidebar.text_input
 #return = st.sider.text_input.lower().startswith('y')
 
