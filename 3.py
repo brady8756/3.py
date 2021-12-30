@@ -141,7 +141,6 @@ def isBoardFull(board):
             return False
     return True
 
-    st.session
     st.write('Welcome to Tic Tac Toe!')
     
 while True:
