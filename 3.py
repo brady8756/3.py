@@ -44,7 +44,7 @@ def whoGoesFirst():
     else:
         return 'player'
     
-return = st.sidebar.text_input().lower().startswith('y')
+return st.sidebar.text_input().lower().startswith('y')
 
 def playAgain():
     # This function returns True if the player wants to play again, otherwise it returns False.
