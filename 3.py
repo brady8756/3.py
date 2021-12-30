@@ -89,8 +89,7 @@ def getPlayerMove(board):
     #while move not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(move)):
     st.write('What is your next move? (1-9)')
     #move = st.sidebar.text_input
-    return int(move)
-    move = move.upper()
+    return move
 
 def chooseRandomMoveFromList(board, movesList):
     # 隨機返回一個可以落子的座標
