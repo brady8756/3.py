@@ -20,13 +20,15 @@ def drawBoard(board):
     st.write(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     st.write('   |   |')
 
+letter = st.sider.text_input('please input X or O?' , 'X O')
+
 def inputPlayerLetter():
     # Lets the player type which letter they want to be.
     # Returns a list with the player’s letter as the first item, and the computer's letter as the second.
     letter = ''
     while not (letter == 'X' or letter == 'O'):
         st.write('Do you want to be X or O?')
-        letter = st.text_input('please input X or O?' , 'X O')
+        #letter = st.sider.text_input('please input X or O?' , 'X O')
         letter = letter.upper()
 
     # the first element in the list is the player’s letter, the second is the computer's letter.
