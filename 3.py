@@ -43,6 +43,7 @@ def whoGoesFirst():
         return 'computer'
     else:
         return 'player'
+    
 return = st.sidebar.text_input().lower().startswith('y')
 
 def playAgain():
