@@ -49,7 +49,7 @@ return st.sidebar.text_input().lower().startswith('y')
 def playAgain():
     # This function returns True if the player wants to play again, otherwise it returns False.
     st.write('Do you want to play again? (yes or no)')
-    return return.upper = ()
+    return = ()
 
 # 下子
 def makeMove(board, letter, move):
