@@ -43,11 +43,12 @@ def whoGoesFirst():
         return 'computer'
     else:
         return 'player'
+return st.sidebar.text_input().lower().startswith('y')
 
 def playAgain():
     # This function returns True if the player wants to play again, otherwise it returns False.
     st.write('Do you want to play again? (yes or no)')
-    return input().lower().startswith('y')
+
 
 # 下子
 def makeMove(board, letter, move):
@@ -79,12 +80,14 @@ def isSpaceFree(board, move):
     # 判斷這個位置是否有子，沒子返回True
     return board[move] == ' '
 
+move = st.sidebar.text_input
+
 def getPlayerMove(board):
     # 玩家落子
     move = ' '
     while move not in '1 2 3 4 5 6 7 8 9'.split() or not isSpaceFree(board, int(move)):
         st.write('What is your next move? (1-9)')
-        move = st.text_input
+        #move = st.sidebar.text_input
     return int(move)
 
 def chooseRandomMoveFromList(board, movesList):
