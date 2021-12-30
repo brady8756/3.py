@@ -141,8 +141,9 @@ def isBoardFull(board):
             return False
     return True
 
-    st.write('Welcome to Tic Tac Toe!')
     st.session
+    st.write('Welcome to Tic Tac Toe!')
+    
 while True:
     # 更新棋盤
     theBoard = [' '] * 10
