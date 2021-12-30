@@ -21,7 +21,9 @@ def drawBoard(board):
     st.write('   |   |')
 
 letter = st.sidebar.text_input('please input X or O?' , 'X O')
-move = st.sidebar.text_input
+move = st.sidebar.text_input('please 1 2 3 .. 9')
+playagain = st.sidebar.text_input('Play again: y/n')
+#return = st.sider.text_input.lower().startswith('y')
 
 def inputPlayerLetter():
     # Lets the player type which letter they want to be.
