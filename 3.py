@@ -26,6 +26,7 @@ def inputPlayerLetter():
     letter = ''
     while not (letter == 'X' or letter == 'O'):
         st.write('Do you want to be X or O?')
+        st.session
         letter = st.text_input('please input X or O?' , 'X O')
         letter = letter.upper()
 
