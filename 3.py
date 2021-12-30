@@ -32,7 +32,7 @@ def inputPlayerLetter():
     while not (letter == 'X' or letter == 'O'):
         st.write('Do you want to be X or O?')
         #letter = st.sider.text_input('please input X or O?' , 'X O')
-        letter = st.sidebar.text_input('please input X or O?' , 'X O')
+        #letter = st.sidebar.text_input('please input X or O?' , 'X O')
         letter = letter.upper()
     
     # the first element in the list is the player’s letter, the second is the computer's letter.
